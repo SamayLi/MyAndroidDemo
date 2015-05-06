@@ -7,7 +7,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 /**
- * Created by lewa on 5/5/15.
+ * Created by samay on 5/5/15.
  */
 public class MyRecyclerView extends RecyclerView implements RecyclerView.OnScrollListener{
 
