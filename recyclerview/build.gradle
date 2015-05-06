@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.android.samay"
+        applicationId "com.android.samay.recyclerview"
         minSdkVersion 21
         targetSdkVersion 22
         versionCode 1
@@ -21,4 +21,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/android-support-v7-recyclerview.jar')
 }

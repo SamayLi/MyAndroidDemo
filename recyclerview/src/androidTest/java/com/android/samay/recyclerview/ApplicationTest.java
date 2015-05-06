@@ -1,4 +1,4 @@
-package com.android.samay;
+package com.android.samay.recyclerview;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
