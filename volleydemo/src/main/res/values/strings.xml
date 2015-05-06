@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">volleydemo</string>
+    <string name="data_request_text">数据请求</string>
+    <string name="string_request">String request</string>
+    <string name="json_request">Json Request</string>
+</resources>
