@@ -3,4 +3,7 @@
     <string name="data_request_text">数据请求</string>
     <string name="string_request">String request</string>
     <string name="json_request">Json Request</string>
+    <string name="request_url_hint">input the url</string>
+    <string name="request_send">String request send</string>
+    <string name="image_request">Image Request</string>
 </resources>

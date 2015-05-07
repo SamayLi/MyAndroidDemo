@@ -12,7 +12,7 @@ public class VolleyUtil {
     private volatile static RequestQueue requestQueue;
 
     public static RequestQueue getQueue(Context context){
-        if(requestQueue !=null){
+        if(requestQueue ==null){
             synchronized (Volley.class){
                 requestQueue=Volley.newRequestQueue(context.getApplicationContext());
             }
