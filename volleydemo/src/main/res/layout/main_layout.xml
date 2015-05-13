@@ -38,4 +38,42 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/image_request" />
+
+    <Button
+        android:id="@+id/btn_image_loader_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/imgae_loader_request" />
+
+    <Button
+        android:id="@+id/btn_network_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/network_image_view" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/custom_request_text" />
+
+    <Button
+        android:id="@+id/btn_xml_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_request" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/post_request_text" />
+
+    <Button
+        android:id="@+id/btn_post_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post_request" />
 </LinearLayout>

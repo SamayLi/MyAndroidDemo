@@ -4,10 +4,11 @@ package com.android.samay.volleydemo.util;
  * Created by samay on 5/6/15.
  */
 public class Constants {
-    public final static String STRING_REQUEST="www.baidu.com";
-    public final static String JSON_REQUEST="http://app.api.autohome.com.cn/autov4.3/cars/seriesprice-a2-pm2-v4.3.0-b42-t1.html";
-
-    public static final String[] IMAGE_URLS = new String[] {
+    public final static String STRING_REQUEST = "www.baidu.com";
+    public final static String JSON_REQUEST = "http://app.api.autohome.com.cn/autov4.3/cars/seriesprice-a2-pm2-v4.3.0-b42-t1.html";
+    public final static String XML_REQUEST = "http://flash.weather.com.cn/wmaps/xml/china.xml";
+    public final static String POST_REQUEST = "webservice.webxml.com.cn/WebServices/MobileCodeWS.asmx/getMobileCodeInfo";
+    public static final String[] IMAGE_URLS = new String[]{
             // 小图
             "http://car0.autoimg.cn/upload/2014/10/3/s_20141003015514509-110.jpg",
             "http://car0.autoimg.cn/upload/2014/10/3/s_20141003015436443-110.jpg",

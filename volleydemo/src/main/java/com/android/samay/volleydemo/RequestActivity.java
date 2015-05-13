@@ -4,9 +4,13 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 
+import com.android.samay.volleydemo.fragment.ImageLoaderFragment;
 import com.android.samay.volleydemo.fragment.ImageRequestFragment;
 import com.android.samay.volleydemo.fragment.JsonRequestFragment;
+import com.android.samay.volleydemo.fragment.NetworkImageViewFragment;
+import com.android.samay.volleydemo.fragment.PostRequestFragment;
 import com.android.samay.volleydemo.fragment.StringRequestFragment;
+import com.android.samay.volleydemo.fragment.XmlRequestFragment;
 import com.android.samay.volleydemo.util.Constants;
 
 /**
@@ -45,6 +49,38 @@ public class RequestActivity extends FragmentActivity {
                     fr=new ImageRequestFragment();
                 }
                 titleRes=R.string.image_request;
+                break;
+            case ImageLoaderFragment.INDEX:
+                tag= ImageLoaderFragment.class.getSimpleName();
+                fr=getSupportFragmentManager().findFragmentByTag(tag);
+                if(fr==null){
+                    fr=new ImageLoaderFragment();
+                }
+                titleRes=R.string.imgae_loader_request;
+                break;
+            case NetworkImageViewFragment.INDEX:
+                tag= NetworkImageViewFragment.class.getSimpleName();
+                fr=getSupportFragmentManager().findFragmentByTag(tag);
+                if(fr==null){
+                    fr=new NetworkImageViewFragment();
+                }
+                titleRes=R.string.network_image_view;
+                break;
+            case XmlRequestFragment.INDEX:
+                tag= XmlRequestFragment.class.getSimpleName();
+                fr=getSupportFragmentManager().findFragmentByTag(tag);
+                if(fr==null){
+                    fr=new XmlRequestFragment();
+                }
+                titleRes=R.string.xml_request;
+                break;
+            case PostRequestFragment.INDEX:
+                tag= PostRequestFragment.class.getSimpleName();
+                fr=getSupportFragmentManager().findFragmentByTag(tag);
+                if(fr==null){
+                    fr=new PostRequestFragment();
+                }
+                titleRes=R.string.post_request;
                 break;
         }
 

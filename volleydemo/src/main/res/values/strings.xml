@@ -6,4 +6,11 @@
     <string name="request_url_hint">input the url</string>
     <string name="request_send">String request send</string>
     <string name="image_request">Image Request</string>
+    <string name="imgae_loader_request">imageLoader request</string>
+    <string name="network_image_view">network image request</string>
+    <string name="custom_request_text">custom request</string>
+    <string name="xml_request">xml request</string>
+    <string name="post_request_text">post request texy</string>
+    <string name="post_request">post request</string>
+    <string name="request_params_text">request params</string>
 </resources>
