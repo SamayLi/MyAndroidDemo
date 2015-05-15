@@ -1,1 +1,1 @@
-include ':recyclerview', ':volleydemo'
+include ':recyclerview', ':volleydemo', ':canpullview', ':customimageview', ':myeditetext', ':gallery', ':pulltorefreshlistview'

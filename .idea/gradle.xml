@@ -9,6 +9,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/canpullview" />
+            <option value="$PROJECT_DIR$/customimageview" />
+            <option value="$PROJECT_DIR$/gallery" />
+            <option value="$PROJECT_DIR$/myeditetext" />
+            <option value="$PROJECT_DIR$/pulltorefreshlistview" />
             <option value="$PROJECT_DIR$/recyclerview" />
             <option value="$PROJECT_DIR$/volleydemo" />
           </set>

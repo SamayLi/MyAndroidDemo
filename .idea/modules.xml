@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyAndroidDemo.iml" filepath="$PROJECT_DIR$/MyAndroidDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canpullview/canpullview.iml" filepath="$PROJECT_DIR$/canpullview/canpullview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customimageview/customimageview.iml" filepath="$PROJECT_DIR$/customimageview/customimageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gallery/gallery.iml" filepath="$PROJECT_DIR$/gallery/gallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeditetext/myeditetext.iml" filepath="$PROJECT_DIR$/myeditetext/myeditetext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulltorefreshlistview/pulltorefreshlistview.iml" filepath="$PROJECT_DIR$/pulltorefreshlistview/pulltorefreshlistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerview/recyclerview.iml" filepath="$PROJECT_DIR$/recyclerview/recyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/volleydemo/volleydemo.iml" filepath="$PROJECT_DIR$/volleydemo/volleydemo.iml" />
     </modules>
