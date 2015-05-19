@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mainBgImage"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/main_bg_height"
+        android:scaleType="fitStart"
+        android:src="@mipmap/biz_ad_new_version1_bg" />
+
+    <com.android.samay.directionalviewpager.DirectionalViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+</FrameLayout>
